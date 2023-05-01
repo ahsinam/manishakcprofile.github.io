@@ -4,15 +4,13 @@
 }
 
 header {
-    /* background-color: pink; */
-    /* background-color: #dd9ac2; */
     background-color: #8878c3;
     color: white;
     text-align: center;
 }
 
 .title {
-    padding: 12px 0;
+    padding: 18px 0;
 }
 
 .assignmentTable {
@@ -26,7 +24,6 @@ header {
     font-family: 'Times New Roman', Times, serif;
     background: transparent;
     padding: 12px 0;
-    font-size: 12px;
     box-shadow: 0px 1px 0.5px 0 rgba(0, 0, 13, 0.2);
 }
 
@@ -84,4 +81,19 @@ a {
 
 .columnOfTable:nth-child(4) {
     width: 6%;
+}
+
+@media (max-width:412px) {
+    .tableRow {
+        width: 100%;
+    }
+
+    .linkCode {
+        font-size: 8px;
+    }
+
+    .demoLink {
+        font-size: 8px;
+    }
+
 }
