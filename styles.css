@@ -14,6 +14,7 @@ header {
 }
 
 .title {
+
     padding: 18px 0;
 }
 
@@ -52,9 +53,15 @@ a {
     list-style: none;
     text-decoration: none;
     color: black;
-    padding: 8px;
-    border-radius: 4px;
     color: white;
+    padding: 16px;
+}
+
+.columnOfTable button {
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 .linkCode {
@@ -67,6 +74,7 @@ a {
 
     /* background-color: #598BAF */
 }
+
 
 
 .columnOfTable:nth-child(1) {
@@ -85,6 +93,7 @@ a {
 .columnOfTable:nth-child(4) {
     width: 6%;
 }
+
 
 @media (max-width:412px) {
     .tableRow {
